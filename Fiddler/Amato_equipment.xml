@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<show_control>
+  <!-- This file describes the standard equipment used at the Amato center.
+  -->
+  <equipment>
+    <version>1.0</version>
+
+    <!-- the various programs are identified by name, so they can be run
+	 automatically when the sequencer starts, and by type, so the
+	 sequencer knows which cues to send to which program.  The sequencer
+	 sends OSC or MIDI Show Control messages to the specified IP address
+	 and port.  The program reads this file to know which port to listen
+	 on.  When the main sequencer starts the program, it provides the
+	 name of the project file as the only argument.  The program then
+	 reads that file to learn everything it needs, including the
+	 information in this file.  -->
+    <program id="sound_effects">
+      <name>sound_effects_player</name>
+      <type>sound</type>
+      <IP_address>localhost6</IP_address>
+      <port>5005</port>
+      <sounds href="sounds/Amato_sounds.xml"/>
+      <sound_sequence href="sounds/Amato_sound_sequence.xml"/>
+    </program>
+
+    <program id="microphones">
+      <name>microphone_controller</name>
+      <type>microphone</type>
+      <IP_address>localhost6</IP_address>
+      <port>1502</port>
+      <board>Behringer X32</board>
+    </program>
+
+  </equipment>
+</show_control>
