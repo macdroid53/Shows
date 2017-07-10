@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show_control>
+  <cue uuid="f40e83e1-f69f-4fd7-bd22-5baae2d1fd07">
+    <Id>0</Id> <!-- This is typically the line number on the page-->
+    <Act>0</Act>
+    <Scene> 0</Scene>
+    <Page>0</Page>
+    <Title>Initial State</Title>
+    <CueCall>Program Start</CueCall>
+    <CueType>Stage,Mixer,Sound</CueType>
+    <Mutes>M0ch01:0,M0ch02:0,M0ch03:0,M0ch04:0,M0ch05:0,M0ch06:0,M0ch07:0,M0ch08:0,M0ch09:0,M0ch10:0,M0ch11:0,M0ch12:0,M0ch13:0,M0ch14:0,M0ch15:0,M0ch16:0,M0ch17:0,M0ch18:0,M0ch19:0,M0ch20:0,M0ch21:0,M0ch22:0,M0ch23:0,M0ch24:0,M0ch25:0,M0ch26:0,M0ch27:0,M0ch28:0,M0ch29:0,M0ch30:0,M0ch31:0,M0ch32:0,M0main01:1,M1ch01:0,M1ch02:0,M1ch03:0,M1ch04:0,M1ch05:0,M1ch06:0,M1ch07:0,M1ch08:0,M1ch09:0,M1ch10:0,M1ch11:0,M1ch12:0,M1ch13:0,M1ch14:0,M1aux01:0,M1bus01:0,M1out01:1</Mutes>
+    <Entrances></Entrances>
+    <Exits></Exits>
+    <Levels>M0ch01:0,M0ch02:0,M0ch03:0,M0ch04:0,M0ch05:512,M0ch06:0,M0ch07:0,M0ch08:0,M0ch09:0,M0ch10:512,M0ch11:0,M0ch12:0,M0ch13:0,M0ch14:0,M0ch15:0,M0ch16:0,M0ch17:0,M0ch18:0,M0ch19:0,M0ch20:0,M0ch21:0,M0ch22:0,M0ch23:0,M0ch24:0,M0ch25:0,M0ch26:0,M0ch27:0,M0ch28:0,M0ch29:0,M0ch30:0,M0ch31:0,M0ch32:0,M0main01:256,M1ch01:512,M1ch02:0,M1ch03:0,M1ch04:0,M1ch05:0,M1ch06:0,M1ch07:0,M1ch08:0,M1ch09:0,M1ch10:512,M1ch11:0,M1ch12:0,M1ch13:0,M1ch14:0,M1aux01:0,M1bus01:0,M1out01:256</Levels>
+    <OnStage/>
+    <Note1/>
+    <Note2/>
+    <Note3/>
+  </cue>
+  <cue uuid="cd1c195d-90ba-4aa1-936d-7a1c595690dc">
+    <Id>1A</Id>
+    <Act>1</Act>
+    <Scene> 1</Scene>
+    <Page>1</Page>
+    <Title>House is open</Title>
+    <CueCall>Doors open</CueCall>
+    <CueType>Stage,Light,Sound, Mixer</CueType>
+    <Entrances></Entrances>
+    <Exits/>
+    <Levels>ch01:512,ch02:512,ch03:0,ch04:0,ch05:0,ch06:0,ch07:0,ch08:0,ch09:0,ch10:0,ch11:0,ch12:0,ch13:0,ch14:0,ch15:0,ch16:0,ch17:0,ch18:0,ch19:0,ch20:0,ch21:0,ch22:0,ch23:0,ch24:0,ch25:0,ch26:0,ch27:0,ch28:0,ch29:0,ch30:0,ch31:0,ch32:0</Levels>
+    <OnStage></OnStage>
+    <Note1/>
+    <Note2/>
+    <Note3/>
+  </cue>
+  <cue uuid="51e13357-77c7-4df5-baba-6225687ee485">
+    <Id>1B</Id>
+    <Act>1</Act>
+    <Scene> 1</Scene>
+    <Page>1</Page>
+    <Title>House to half</Title>
+    <CueCall>Go house half</CueCall>
+    <CueType>Light, Sound</CueType>
+    <Entrances></Entrances>
+    <Exits>c</Exits>
+    <OnStage></OnStage>
+    <Levels>M0ch01:64,M0ch02:128,M0ch03:194,M0ch04:256,M0ch05:320,M0ch06:384,M0ch07:448,M0ch08:512,M0ch09:576,M0ch10:640,M0ch11:704,M0ch12:768,M0ch13:832,M0ch14:896,M0ch15:960,M0ch16:1024,M0ch17:1024,M0ch18:960,M0ch19:896,M0ch20:832,M0ch21:768,M0ch22:704,M0ch23:640,M0ch24:576,M0ch25:512,M0ch26:448,M0ch27:384,M0ch28:320,M0ch29:256,M0ch30:194,M0ch31:128,M0ch32:64,M1ch01:64,M1ch02:128,M1ch03:194,M1ch04:256,M1ch05:320,M1ch06:384,M1ch07:448,M1ch08:512,M1ch09:576,M1ch10:640,M1ch11:704,M1ch12:768,M1ch13:832,M1ch14:896,M1aux01:960,M1bus01:1024</Levels>
+    <Note1/>
+    <Note2/>
+    <Note3/>
+  </cue>
+  <cue uuid="003">
+    <Id>2A</Id>
+    <Act>1</Act>
+    <Scene> 2</Scene>
+    <Page>2</Page>
+    <Title>Curtain Speech</Title>
+    <CueCall>Go curtain speech</CueCall>
+    <CueType>Mixer</CueType>
+    <Mutes>M0ch01:1,M0ch02:0,M0ch03:0,M0ch04:0,M0ch05:0,M0ch06:0,M0ch07:0,M0ch08:0,M0ch09:0,M0ch10:0,M0ch11:0,M0ch12:0,M0ch13:0,M0ch14:0,M0ch15:0,M0ch16:0,M0ch17:0,M0ch18:0,M0ch19:0,M0ch20:0,M0ch21:0,M0ch22:0,M0ch23:0,M0ch24:0,M0ch25:0,M0ch26:0,M0ch27:0,M0ch28:0,M0ch29:0,M0ch30:0,M0ch31:0,M0ch32:0,M0main01:1,M1ch01:1,M1ch02:0,M1ch03:0,M1ch04:0,M1ch05:0,M1ch06:0,M1ch07:0,M1ch08:0,M1ch09:0,M1ch10:0,M1ch11:0,M1ch12:0,M1ch13:0,M1ch14:0,M1aux01:0,M1bus01:0,M1out01:1</Mutes>
+    <Entrances>M0ch01,M1ch01</Entrances>
+    <Exits>M0ch10,M0ch02,M0ch04,M0ch05,M0ch06,M0ch07,M0ch08,M1ch10,M1ch02,M1ch04,M1ch05,M1ch06,M1ch07,M1ch08 </Exits>
+    <OnStage/>
+    <Levels>M0ch01:64,M0ch02:128,M0ch03:194,M0ch04:256,M0ch05:320,M0ch06:384,M0ch07:448,M0ch08:512,M0ch09:576,M0ch10:640,M0ch11:704,M0ch12:768,M0ch13:832,M0ch14:896,M0ch15:960,M0ch16:1024,M0ch17:1024,M0ch18:960,M0ch19:896,M0ch20:832,M0ch21:768,M0ch22:704,M0ch23:640,M0ch24:576,M0ch25:512,M0ch26:448,M0ch27:384,M0ch28:320,M0ch29:256,M0ch30:194,M0ch31:128,M0ch32:64,M1ch01:64,M1ch02:128,M1ch03:194,M1ch04:256,M1ch05:320,M1ch06:384,M1ch07:448,M1ch08:512,M1ch09:576,M1ch10:640,M1ch11:704,M1ch12:768,M1ch13:832,M1ch14:896,M1aux01:960,M1bus01:1024</Levels>
+    <Note1/>
+    <Note2/>
+    <Note3/>
+  </cue>
+  </show_control>
