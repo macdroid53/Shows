@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<show_control>
+<!-- these sounds are common to many shows. -->
+  <sounds>
+    <version>1.0</version>
+
+    <!-- put the safety announcement here.  -->
+    
+    <routing></routing>
+  </sounds>
+</show_control>

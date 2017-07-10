@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<show_control>
+
+  <!-- This sound sequence is unique to Fiddler on the Roof.  These
+       sequence items are available to the sound_effect_player's internal
+       sequencer along with the sequence items in Amato_sound_sequence.xml.  -->
+
+  <sound_sequence>
+    <version>1.0</version>
+
+    <sequence_item>
+      <name>start_of_sequence</name>
+      <type>start_sequence</type>
+      <next>play_background_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>play_background_01</name>
+      <type>start_sound</type>
+      <sound_name>background-01</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>Jewish Chassidic melody</text_to_display>
+      <next_completion>play_background_02</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>play_background_02</name>
+      <type>start_sound</type>
+      <sound_name>background-02</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>Erev Shel Shoshanim (Jewish Wedding Song) #1</text_to_display>
+      <next_completion>play_background_03</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>play_background_03</name>
+      <type>start_sound</type>
+      <sound_name>background-06</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>Jerusalem of Gold</text_to_display>
+      <next_completion>play_background_04</next_completion>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>play_background_04</name>
+      <type>start_sound</type>
+      <sound_name>background-03</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>Erev Shel Shoshanim (Jewish Wedding Song) #2</text_to_display>
+      <next_completion>play_background_05</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>play_background_05</name>
+      <type>start_sound</type>
+      <sound_name>background-07</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>The Soul of Jewish Violin</text_to_display>
+      <next_completion>play_background_06</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>play_background_06</name>
+      <type>start_sound</type>
+      <sound_name>background-04</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>Erev Shel Shoshanim (Jewish Wedding Song) #3</text_to_display>
+      <next_completion>play_background_01</next_completion>
+    </sequence_item>
+
+
+  </sound_sequence>
+</show_control>
