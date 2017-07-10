@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<show_control>
+
+  <!-- These sound sequence items are common to many shows.  -->
+  
+  <sound_sequence>
+    <version>1.0</version>
+    
+    <!-- put the safety announcement here.  -->
+
+  </sound_sequence>
+</show_control>
