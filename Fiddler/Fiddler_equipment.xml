@@ -11,13 +11,21 @@
       <sounds href="sounds/Fiddler_sounds.xml">
       </sounds>
       <port>1500</port>
+      <IP_address>localhost6</IP_address>
+      <MIDI_address></MIDI_address>
       <sound_sequence href="sounds/Fiddler_sound_sequence.xml"/>
     </program>
 
     <program id="lighting">
+      <port></port>
+      <IP_address></IP_address>
+      <MIDI_address></MIDI_address>
     </program>
 
     <program id="microphones">
+      <port></port>
+      <IP_address></IP_address>
+      <MIDI_address></MIDI_address>
     </program>
     
   </equipment>

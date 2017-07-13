@@ -39,31 +39,12 @@
 	 board controller and the microphone handler.  -->
     <equipment href="Amato_equipment.xml"/>
 
-    <!-- Extra equipment brought in for this production.  The information
-	 in this file is used the same way as the standard equipment file,
-	 but is kept separate so the standard equipment file does not
-	 have to be edited for each production.  This file includes references
-	 to the sound effects and sequence used by the sound effects player.
-    -->
     <equipment href="Fiddler_equipment.xml"/>
-
-    <!-- The way a cue is executed is specific to the script and the
-	 capabilities of the theater.  Every cue has a name.  The script
-	 specifies when during the performance each named cue is to be
-	 performed.  These files describe, for each named cue, what command
-	 or commands to send to the light board, sound effects player and/or
-	 microphone handler when the script calls for the cue to be executed.
-	 Cues which will be used in many shows are in Amato_cues.xml, whereas
-	 cues that are specific to The Perils of Pauline are in
-	 Pauline_cues.xml.  -->
     <cues href="Amato_cues.xml"/>
-    <cues href="Fiddler_cues.xml"/>
+    <cues href="Fiddler_cuesx.xml"/>
 
-     <!-- The crew for this production, with their duties. -->
     <crew href="Amato_crew_for_Fiddler.xml"/>
 
-    <!-- The script, which is kept in a separate file because it is
-	 independent of production or even theater. -->
     <script lang="cueml" href="Fiddler_on_the_Roof.xml"/>
 
   </project>

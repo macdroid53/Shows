@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixermap charcount="29" auxcount="0">
+	<input mixerid="0" chan="1" actor="PatrickMcCarty" char="Tevye"/>
+	<input mixerid="0" chan="2" actor="KarinHarvey-Olsen" char="Golde"/>
+	<input mixerid="0" chan="3" actor="LaurenBusa" char="Tzeitel"/>
+	<input mixerid="0" chan="4" actor="KatieGiannokopoulos" char="Hodel"/>
+	<input mixerid="0" chan="5" actor="LindseyMurch" char="Chava"/>
+	<input mixerid="0" chan="6" actor="HadleyHarris" char="Shprintze"/>
+	<input mixerid="0" chan="7" actor="EmmaMelanson" char="Bielke"/>
+	<input mixerid="0" chan="8" actor="LucySpencer" char="Yente"/>
+	<input mixerid="0" chan="9" actor="WilliamDesharnais" char="Motel"/>
+	<input mixerid="0" chan="10" actor="DuncanMcGrath" char="Perchik"/>
+	<input mixerid="0" chan="11" actor="MelBucklin" char="Avram"/>
+	<input mixerid="0" chan="12" actor="JimO'Mara" char="LazarWolf"/>
+	<input mixerid="0" chan="13" actor="RussellArrowsmith" char="Rabbi"/>
+	<input mixerid="0" chan="14" actor="JonNoble" char="Constable"/>
+	<input mixerid="0" chan="15" actor="AllyLaManna" char="Yussel"/>
+	<input mixerid="0" chan="16" actor="KarenHammes" char="Shaindel"/>
+	<input mixerid="0" chan="17" actor="BenErdody" char="Sasha"/>
+	<input mixerid="0" chan="18" actor="CristaBurrell" char="Russian"/>
+	<input mixerid="0" chan="19" actor="RobynHolley" char="Robyn"/>
+	<input mixerid="0" chan="20" actor="RichSparks" char="RebNachum"/>
+	<input mixerid="0" chan="21" actor="PattiO'Mara" char="Patti"/>
+	<input mixerid="0" chan="22" actor="GabeGarcia" char="Mendel"/>
+	<input mixerid="0" chan="23" actor="LibbySt.Jean" char="Libby"/>
+	<input mixerid="0" chan="24" actor="KerriGoolsby" char="Kerri"/>
+	<input mixerid="0" chan="25" actor="SteveKelley" char="Innkeeper"/>
+	<input mixerid="0" chan="26" actor="PattyHelbig" char="GrandmaTzeitel"/>
+	<input mixerid="0" chan="27" actor="LukeCrory" char="Fyedka"/>
+	<input mixerid="0" chan="28" actor="LauraMajore" char="FrumaSarah"/>
+	<input mixerid="0" chan="29" actor="DebCurran" char="Deb"/>
+	<input mixerid="0" chan="30" actor="HangingMics" char="HangingMics"/>
+</mixermap>
