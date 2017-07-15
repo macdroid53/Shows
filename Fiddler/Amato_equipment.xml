@@ -30,15 +30,15 @@
 	  <model>X32</model>
 	  <port>10023</port>
 	  <IP_address>192.168.53.40</IP_address>
-          <MIDI_address></MIDI_address>
+          <!--<MIDI_address></MIDI_address>-->
        </mixer><!--for udp the address tag is a comma separate pair "IP,PORT"-->
-       <mixer id="1">
+       <!--<mixer id="1">
           <mfr>Yamaha</mfr>
           <model>01V</model>
           <IP_address></IP_address>
           <port></port>
-          <MIDI_address>2</MIDI_address><!--for midi the address is simply  the address number "2"-->
-       </mixer>
+          <MIDI_address>2</MIDI_address>
+       </mixer>-->
      </mixers>    
  
   </equipment>

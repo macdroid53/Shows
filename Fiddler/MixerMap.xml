@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mixermap charcount="29" auxcount="0">
+<show_control>
+<mixermap charcount="29" auxcount="0" uuid="cd914ed3-b286-4de6-a346-d101ca4f45f1">
 	<input mixerid="0" chan="1" actor="PatrickMcCarty" char="Tevye"/>
 	<input mixerid="0" chan="2" actor="KarinHarvey-Olsen" char="Golde"/>
 	<input mixerid="0" chan="3" actor="LaurenBusa" char="Tzeitel"/>
@@ -31,3 +32,4 @@
 	<input mixerid="0" chan="29" actor="DebCurran" char="Deb"/>
 	<input mixerid="0" chan="30" actor="HangingMics" char="HangingMics"/>
 </mixermap>
+</show_control>
