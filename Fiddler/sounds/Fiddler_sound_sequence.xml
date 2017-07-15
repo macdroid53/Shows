@@ -11,20 +11,52 @@
     <sequence_item>
       <name>start_of_sequence</name>
       <type>start_sequence</type>
+      <next>offer_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>offer_01</name>
+      <type>offer_sound</type>
+      <cluster_number>15</cluster_number>
+      <text_to_display>restart from House Open</text_to_display>
+      <next_to_start>restart_01</next_to_start>
       <next>wait_01</next>
     </sequence_item>
 
     <sequence_item>
-      <name>wait_01</name>
-      <type>operator_wait</type>
-      <text_to_display>Press Play when the house opens.</text_to_display>
-      <next_play>house_is_open></next_play>
+      <name>restart_01</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>restart_02</next>
     </sequence_item>
 
     <sequence_item>
-      <name>house_is_open></name>
+      <name>restart_02</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_03</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_03</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>wait_01</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>wait_01</name>
+      <type>operator_wait</type>
+      <text_to_display>Press Play when the house opens.</text_to_display>
+      <tag>all_waits</tag>
+      <next_play>house_is_open</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>house_is_open</name>
       <type>operator_wait</type>
       <text_to_display>Press Play at House to Half.</text_to_display>
+      <tag>all-waits</tag>
       <next>play_background_01</next>
       <next_play>House_at_Half</next_play>
     </sequence_item>
@@ -100,6 +132,7 @@
       <name>wait_03</name>
       <type>operator_wait</type>
       <text_to_display>Press Play for safety speach.</text_to_display>
+      <tag>all_waits</tag>
       <next_play>safety_speach</next_play>
     </sequence_item>
 
@@ -108,6 +141,7 @@
       <type>start_sound</type>
       <sound_name>safety_announcement</sound_name>
       <cluster_number>1</cluster_number>
+      <tag>safety_announcement</tag>
       <text_to_display>safety speach</text_to_display>
       <next_completion>wait_04</next_completion>
     </sequence_item>
@@ -115,7 +149,15 @@
     <sequence_item>
       <name>wait_04</name>
       <type>operator_wait</type>
+      <tag>all_waits</tag>
       <text_to_display>remainder not yet programmed; press Play to exit</text_to_display>
+      <next_play>exit_01</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>exit_01</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>15</cluster_number>
     </sequence_item>
     
   </sound_sequence>
