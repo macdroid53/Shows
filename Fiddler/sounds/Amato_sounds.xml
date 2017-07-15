@@ -4,7 +4,10 @@
   <sounds>
     <version>1.0</version>
 
-    <!-- put the safety announcement here.  -->
+    <sound>
+      <name>safety_announcement</name>
+      <wav_file_name>MAC_curtain.wav</wav_file_name>
+    </sound>
     
     <routing></routing>
   </sounds>

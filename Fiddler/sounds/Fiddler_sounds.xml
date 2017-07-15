@@ -10,6 +10,7 @@
       <wav_file_name>background_music/Boris Savchuk Yevarechecha - Jewish Chassidic melody-wsJD7geTQwI.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <sound>
@@ -17,6 +18,7 @@
       <wav_file_name>background_music/Erev shel shoshanim - Jerusalem Duo - ערב של שושנים-BWJDCiYMxzw.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <sound>
@@ -24,6 +26,7 @@
       <wav_file_name>background_music/EREV SHEL SHOSHANIM (Jewish Wedding Song)-JhCpgLBJL-Q.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <sound>
@@ -31,6 +34,7 @@
       <wav_file_name>background_music/Erev Shel Shoshanim - Solo Violin - Jewish Wedding Music-q-pCseU-YfE.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <sound>
@@ -38,6 +42,7 @@
       <wav_file_name>background_music/Erev Shel Shoshanim - ערב של שושנים - Instrumental Traditional Jewish Music-U-X2rDAvtMY.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <sound>
@@ -45,6 +50,7 @@
       <wav_file_name>background_music/Jerusalem of Gold (Instrumental - Violin) - Music from israel-PqUdtGIMsJQ.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <sound>
@@ -52,6 +58,7 @@
       <wav_file_name>background_music/The Soul of Jewish violin-bgUrrEDsuJw.wav</wav_file_name>
       <designer_volume_level>0.33</designer_volume_level>
       <designer_pan>0.00</designer_pan>
+      <release_duration_time>1.0</release_duration_time>
     </sound>
     
     <routing></routing>

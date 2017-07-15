@@ -11,14 +11,30 @@
     <sequence_item>
       <name>start_of_sequence</name>
       <type>start_sequence</type>
-      <next>play_background_01</next>
+      <next>wait_01</next>
     </sequence_item>
 
+    <sequence_item>
+      <name>wait_01</name>
+      <type>operator_wait</type>
+      <text_to_display>Press Play when the house opens.</text_to_display>
+      <next_play>house_is_open></next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>house_is_open></name>
+      <type>operator_wait</type>
+      <text_to_display>Press Play at House to Half.</text_to_display>
+      <next>play_background_01</next>
+      <next_play>House_at_Half</next_play>
+    </sequence_item>
+    
     <sequence_item>
       <name>play_background_01</name>
       <type>start_sound</type>
       <sound_name>background-01</sound_name>
       <cluster_number>0</cluster_number>
+      <tag>background</tag>
       <text_to_display>Jewish Chassidic melody</text_to_display>
       <next_completion>play_background_02</next_completion>
     </sequence_item>
@@ -28,6 +44,7 @@
       <type>start_sound</type>
       <sound_name>background-02</sound_name>
       <cluster_number>0</cluster_number>
+      <tag>background</tag>
       <text_to_display>Erev Shel Shoshanim (Jewish Wedding Song) #1</text_to_display>
       <next_completion>play_background_03</next_completion>
     </sequence_item>
@@ -37,6 +54,7 @@
       <type>start_sound</type>
       <sound_name>background-06</sound_name>
       <cluster_number>0</cluster_number>
+      <tag>background</tag>
       <text_to_display>Jerusalem of Gold</text_to_display>
       <next_completion>play_background_04</next_completion>
     </sequence_item>
@@ -46,6 +64,7 @@
       <type>start_sound</type>
       <sound_name>background-03</sound_name>
       <cluster_number>0</cluster_number>
+      <tag>background</tag>
       <text_to_display>Erev Shel Shoshanim (Jewish Wedding Song) #2</text_to_display>
       <next_completion>play_background_05</next_completion>
     </sequence_item>
@@ -55,6 +74,7 @@
       <type>start_sound</type>
       <sound_name>background-07</sound_name>
       <cluster_number>0</cluster_number>
+      <tag>background</tag>
       <text_to_display>The Soul of Jewish Violin</text_to_display>
       <next_completion>play_background_06</next_completion>
     </sequence_item>
@@ -64,10 +84,39 @@
       <type>start_sound</type>
       <sound_name>background-04</sound_name>
       <cluster_number>0</cluster_number>
+      <tag>background</tag>
       <text_to_display>Erev Shel Shoshanim (Jewish Wedding Song) #3</text_to_display>
       <next_completion>play_background_01</next_completion>
     </sequence_item>
 
+    <sequence_item>
+      <name>House_at_Half</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>wait_03</next>
+    </sequence_item>
 
+    <sequence_item>
+      <name>wait_03</name>
+      <type>operator_wait</type>
+      <text_to_display>Press Play for safety speach.</text_to_display>
+      <next_play>safety_speach</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>safety_speach</name>
+      <type>start_sound</type>
+      <sound_name>safety_announcement</sound_name>
+      <cluster_number>1</cluster_number>
+      <text_to_display>safety speach</text_to_display>
+      <next_completion>wait_04</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>wait_04</name>
+      <type>operator_wait</type>
+      <text_to_display>remainder not yet programmed; press Play to exit</text_to_display>
+    </sequence_item>
+    
   </sound_sequence>
 </show_control>
