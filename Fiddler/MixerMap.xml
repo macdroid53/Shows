@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<show_control><mixermap charcount="29" auxcount="0" uuid="c996a6bb-0bef-40a3-954f-30c5dd859a0f">
+<show_control><mixermap charcount="29" auxcount="0" uuid="f40e83e1-f69f-4fd7-bd22-5baae2d1fd07">
 	<input mixerid="0" chan="1" actor="PatrickMcCarty" char="Tevye"/>
 	<input mixerid="0" chan="2" actor="KarinHarvey-Olsen" char="Golde"/>
 	<input mixerid="0" chan="3" actor="LaurenBusa" char="Tzeitel"/>

@@ -17,7 +17,7 @@
     <program id="sound_effects">
       <name>sound_effects_player</name>
       <type>sound</type>
-      <IP_address>localhost6</IP_address>
+      <IP_address>localhost</IP_address>
       <port>5005</port>
       <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
       <sounds href="sounds/Amato_sounds.xml"/>
