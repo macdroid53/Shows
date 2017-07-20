@@ -14,15 +14,15 @@
 	 name of the project file as the only argument.  The program then
 	 reads that file to learn everything it needs, including the
 	 information in this file.  -->
-    <program id="sound_effects">
+ <!--   <program id="sound_effects">
       <name>sound_effects_player</name>
       <type>sound</type>
       <IP_address>localhost</IP_address>
       <port>5005</port>
-      <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
+      <MIDI_address></MIDI_address>
       <sounds href="sounds/Amato_sounds.xml"/>
       <sound_sequence href="sounds/Amato_sound_sequence.xml"/>
-    </program>
+    </program>-->
 
     <mixers>
        <mixer id="0">
