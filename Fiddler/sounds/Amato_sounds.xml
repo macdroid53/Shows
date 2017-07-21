@@ -6,7 +6,7 @@
 
     <sound>
       <name>safety_announcement</name>
-      <wav_file_name>MAC_curtain.wav</wav_file_name>
+      <wav_file_name>CurtainSpeech_session.wav</wav_file_name>
     </sound>
     
     <routing></routing>
