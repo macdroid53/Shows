@@ -20,9 +20,19 @@
       <cluster_number>15</cluster_number>
       <text_to_display>restart from House Open</text_to_display>
       <next_to_start>restart_01</next_to_start>
-      <next>wait_01</next>
+      <next>offer_02</next>
     </sequence_item>
 
+    <sequence_item>
+      <name>offer_02</name>
+      <type>offer_sound</type>
+      <cluster_number>14</cluster_number>
+      <text_to_display>House to Half</text_to_display>
+      <OSC_cue_string>51e13357-77c7-4df5-baba-6225687ee485</OSC_cue_string>
+      <next_to_start>restart_11</next_to_start>
+      <next>wait_01</next>
+    </sequence_item>
+    
     <sequence_item>
       <name>restart_01</name>
       <type>cancel_wait</type>
@@ -42,6 +52,27 @@
       <type>stop_sound</type>
       <tag>safety_announcement</tag>
       <next>wait_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_11</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_12</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_12</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>restart_13</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_13</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>House_at_Half</next>
     </sequence_item>
     
     <sequence_item>
@@ -131,18 +162,18 @@
     <sequence_item>
       <name>wait_03</name>
       <type>operator_wait</type>
-      <text_to_display>Press Play for safety speach.</text_to_display>
+      <text_to_display>Press Play for safety speech.</text_to_display>
       <tag>all_waits</tag>
-      <next_play>safety_speach</next_play>
+      <next_play>safety_speech</next_play>
     </sequence_item>
 
     <sequence_item>
-      <name>safety_speach</name>
+      <name>safety_speech</name>
       <type>start_sound</type>
       <sound_name>safety_announcement</sound_name>
       <cluster_number>1</cluster_number>
       <tag>safety_announcement</tag>
-      <text_to_display>safety speach</text_to_display>
+      <text_to_display>safety speech</text_to_display>
       <next_completion>wait_04</next_completion>
     </sequence_item>
 
