@@ -166,7 +166,7 @@
       <type>offer_sound</type>
       <cluster_number>11</cluster_number>
       <text_to_display>House is Open</text_to_display>
-      <OSC_cue_string>cd1c195d-90ba-4aa1-936d-7a1c595690d</OSC_cue_string>
+      <OSC_cue_string>cd1c195d-90ba-4aa1-936d-7a1c595690dc</OSC_cue_string>
       <next_to_start>restart_house_is_open</next_to_start>
       <next>offer_12</next>
     </sequence_item>

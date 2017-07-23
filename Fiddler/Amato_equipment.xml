@@ -15,7 +15,7 @@
 	 reads that file to learn everything it needs, including the
 	 information in this file.  -->
 
-    <program id="sound_effects">
+     <program id="sound_effects">
       <name>sound_effects_player</name>
       <type>sound</type>
       <IP_address>localhost</IP_address>
