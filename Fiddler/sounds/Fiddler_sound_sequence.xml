@@ -8,88 +8,223 @@
   <sound_sequence>
     <version>1.0</version>
 
+    <!--
+	The timeline for sound effects is as follows:
+	Cue                 Action
+	=================== ======================
+	Top of Show         none
+	House is Open       play background music
+	House to Half       stop background music
+	Safety Speech       play safety speech
+	Act 1 begins        none
+	Act 1 ends          none
+	Intermission begins none
+	Intermission ends   play settling speech
+	Act 2 begins        none
+	Act 2 ends          none
+	Bottom of show      none
+
+    Each of the cues above is an Operator Wait sequence item.
+    Pressing the Play key proceeds to the sequence item inside
+    <next_play></next_play>.  The action performed when arriving
+    at the cue is the sequence item inside <next></next>.
+    -->
+    
     <sequence_item>
-      <name>start_of_sequence</name>
-      <type>start_sequence</type>
-      <next>offer_01</next>
+      <name>Top_of_Show</name>
+      <type>operator_wait</type>
+      <text_to_display>Top of Show; press Play when the house opens.</text_to_display>
+      <tag>all_waits</tag>
+      <next>at_top_of_show</next>
+      <next_play>House_is_Open</next_play>
     </sequence_item>
 
     <sequence_item>
-      <name>offer_01</name>
-      <type>offer_sound</type>
-      <cluster_number>15</cluster_number>
-      <text_to_display>restart from House Open</text_to_display>
-      <next_to_start>restart_01</next_to_start>
-      <next>offer_02</next>
+      <name>House_is_Open</name>
+      <type>operator_wait</type>
+      <text_to_display>House is Open; press Play at House to Half.</text_to_display>
+      <tag>all-waits</tag>
+      <next>at_house_is_open</next>
+      <next_play>House_to_Half</next_play>
     </sequence_item>
 
     <sequence_item>
-      <name>offer_02</name>
+      <name>House_to_Half</name>
+      <type>operator_wait</type>
+      <text_to_display>House to Half; press Play for safety speech.</text_to_display>
+      <tag>all_waits</tag>
+      <next>at_house_to_half</next>
+      <next_play>Safety_Speech</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Safety_Speech</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Playing Safety Speech; press play to start Act 1.</text_to_display>
+      <next>at_safety_speech</next>
+      <next_play>Act_1_begins</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Act_1_begins</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Act 1; press Play when Act 1 ends.</text_to_display>
+      <next>at_act_1_begins</next>
+      <next_play>Act_1_ends</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Act_1_ends</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Act 1 ends; press Play when Intermission begins.</text_to_display>
+      <next>at_act_1_ends</next>
+      <next_play>Intermission_Begins</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Intermission_Begins</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Intermission begins; press Play when Intermission ends.</text_to_display>
+      <next>at_intermission_begins</next>
+      <next_play>Intermission_Ends</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Intermission_Ends</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Intermisison ends; press Play when Act 2 begins.</text_to_display>
+      <next>at_intermission_ends</next>
+      <next_play>Act_2_Begins</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Act_2_Begins</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Act 2; press Play when Act 2 ends.</text_to_display>
+      <next>at_act_2_ends</next>
+      <next_play>Act_2_ends</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Act_2_ends</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Act 2 ends; press Play when the show is over.</text_to_display>
+      <next>at_act_2_ends</next>
+      <next_play>Bottom_of_Show</next_play>
+    </sequence_item>
+
+    <sequence_item>
+      <name>Bottom_of_Show</name>
+      <type>operator_wait</type>
+      <tag>all_waits</tag>
+      <text_to_display>Bottom of Show; press Play to exit from the sound effects player.</text_to_display>
+      <next>at_bottom_of_show</next>
+    </sequence_item>
+
+    <!--
+	The timeline is in place.  Define the actions taken when we reach
+	each cue.  Use a Wait sequence item with no successors as a place
+	holder for empty actions.
+    -->
+    <sequence_item>
+      <name>at_top_of_show</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+      <next>offer_10</next>
+    </sequence_item>
+    
+    <!--
+	Use some of the clusters for jumping to a cue
+	in case there is a mistake and things are done
+	out of order.  When an Offer Sound is active,
+	<next_to_start></next_to_start> specifies
+	the sequence item to execute if the Start
+	button is pressed.  In addition, the external
+	sequencer can activate a cue by sending the
+	OSC cue string.
+    -->
+
+    <sequence_item>
+      <name>offer_10</name>
       <type>offer_sound</type>
-      <cluster_number>14</cluster_number>
+      <cluster_number>10</cluster_number>
+      <text_to_display>Top of Show</text_to_display>
+      <OSC_cue_string>f40e83e1-f69f-4fd7-bd22-5baae2d1fd0</OSC_cue_string>
+      <next_to_start>restart_top_of_show</next_to_start>
+      <next>offer_11</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>offer_11</name>
+      <type>offer_sound</type>
+      <cluster_number>11</cluster_number>
+      <text_to_display>House is Open</text_to_display>
+      <OSC_cue_string>cd1c195d-90ba-4aa1-936d-7a1c595690d</OSC_cue_string>
+      <next_to_start>restart_house_is_open</next_to_start>
+      <next>offer_12</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>offer_12</name>
+      <type>offer_sound</type>
+      <cluster_number>12</cluster_number>
       <text_to_display>House to Half</text_to_display>
       <OSC_cue_string>51e13357-77c7-4df5-baba-6225687ee485</OSC_cue_string>
-      <next_to_start>restart_11</next_to_start>
-      <next>wait_01</next>
+      <next_to_start>restart_house_to_half</next_to_start>
+      <next>offer_13</next>
     </sequence_item>
     
     <sequence_item>
-      <name>restart_01</name>
-      <type>cancel_wait</type>
-      <tag>all_waits</tag>
-      <next>restart_02</next>
+      <name>offer_13</name>
+      <type>offer_sound</type>
+      <cluster_number>13</cluster_number>
+      <text_to_display>Safety Speech</text_to_display>
+      <OSC_cue_string>40259ab8-1ba2-4b4a-89e6-45cd970ddf84</OSC_cue_string>
+      <next_to_start>restart_safety_speech</next_to_start>
+      <next>offer_14</next>
     </sequence_item>
 
     <sequence_item>
-      <name>restart_02</name>
-      <type>stop_sound</type>
-      <tag>background</tag>
-      <next>restart_03</next>
+      <name>offer_14</name>
+      <type>offer_sound</type>
+      <cluster_number>14</cluster_number>
+      <text_to_display>Act 1 begins</text_to_display>
+      <OSC_cue_string>f40e83e1-f69f-4fd7-bd22-5baae2d1fd07</OSC_cue_string>
+      <next_to_start>restart_act_1_begins</next_to_start>
+      <next>offer_15</next>
     </sequence_item>
+
+    <!--
+	An emergency can happen at any time.  Press the start button
+	on cluster 15 to stop all running sounds and play a message.
+    -->
     
     <sequence_item>
-      <name>restart_03</name>
-      <type>stop_sound</type>
-      <tag>safety_announcement</tag>
-      <next>wait_01</next>
+      <name>offer_15</name>
+      <type>offer_sound</type>
+      <cluster_number>15</cluster_number>
+      <text_to_display>Emergency</text_to_display>
+      <OSC_cue_string>??</OSC_cue_string>
+      <next_to_start>do_emergency</next_to_start>
     </sequence_item>
 
-    <sequence_item>
-      <name>restart_11</name>
-      <type>stop_sound</type>
-      <tag>background</tag>
-      <next>restart_12</next>
-    </sequence_item>
+    <!--
+	Define the loop of background music
+	that is played while the audience is entering.
+    -->
 
     <sequence_item>
-      <name>restart_12</name>
-      <type>stop_sound</type>
-      <tag>safety_announcement</tag>
-      <next>restart_13</next>
-    </sequence_item>
-    
-    <sequence_item>
-      <name>restart_13</name>
-      <type>cancel_wait</type>
-      <tag>all_waits</tag>
-      <next>House_at_Half</next>
-    </sequence_item>
-    
-    <sequence_item>
-      <name>wait_01</name>
-      <type>operator_wait</type>
-      <text_to_display>Press Play when the house opens.</text_to_display>
-      <tag>all_waits</tag>
-      <next_play>house_is_open</next_play>
-    </sequence_item>
-
-    <sequence_item>
-      <name>house_is_open</name>
-      <type>operator_wait</type>
-      <text_to_display>Press Play at House to Half.</text_to_display>
-      <tag>all-waits</tag>
-      <next>play_background_01</next>
-      <next_play>House_at_Half</next_play>
+      <name>at_house_is_open</name>
+      <type>wait</type>
+      <time_to_wait>0.5</time_to_wait>
+      <next_completion>play_background_01</next_completion>
     </sequence_item>
     
     <sequence_item>
@@ -152,44 +287,341 @@
       <next_completion>play_background_01</next_completion>
     </sequence_item>
 
+    <!-- We need to be able to stop playing the background sounds on cue.
+	 Because they are all tagged as "background" we can stop whichever is
+	 playing with a single sequence item.  -->
+    
     <sequence_item>
-      <name>House_at_Half</name>
+      <name>at_house_to_half</name>
       <type>stop_sound</type>
       <tag>background</tag>
-      <next>wait_03</next>
     </sequence_item>
 
+    <!-- Play the safety speech.  -->  
+    
     <sequence_item>
-      <name>wait_03</name>
-      <type>operator_wait</type>
-      <text_to_display>Press Play for safety speech.</text_to_display>
-      <tag>all_waits</tag>
-      <next_play>safety_speech</next_play>
-    </sequence_item>
-
-    <sequence_item>
-      <name>safety_speech</name>
+      <name>at_safety_speech</name>
       <type>start_sound</type>
       <sound_name>safety_announcement</sound_name>
       <cluster_number>1</cluster_number>
       <tag>safety_announcement</tag>
       <text_to_display>safety speech</text_to_display>
-      <next_completion>wait_04</next_completion>
+    </sequence_item>
+
+    <!-- beginning of act 1 -->
+    
+    <sequence_item>
+      <name>at_act_1_begins</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+    </sequence_item>
+
+    <!-- end of act 1 -->
+    
+    <sequence_item>
+      <name>at_act_1_ends</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+    </sequence_item>
+
+    <!-- beginning of intermission -->
+    
+    <sequence_item>
+      <name>at_intermission_begins</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+    </sequence_item>
+    
+    <!-- end of intermission -->
+    
+    <sequence_item>
+      <name>at_intermission_ends</name>
+      <type>start_sound</type>
+      <sound_name>intermission_return</sound_name>
+      <cluster_number>0</cluster_number>
+      <text_to_display>intermission return</text_to_display>
+    </sequence_item>
+
+    <!-- beginning of act 2 -->
+    
+    <sequence_item>
+      <name>at_act_2_begins</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+    </sequence_item>
+
+    <!-- end of act 2 -->
+    
+    <sequence_item>
+      <name>at_act_2_ends</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+    </sequence_item>
+
+    <!-- end of show -->
+    
+    <sequence_item>
+      <name>at_bottom_of_show</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>10</cluster_number>
+      <next>at_bottom_of_show_01</next>
     </sequence_item>
 
     <sequence_item>
-      <name>wait_04</name>
-      <type>operator_wait</type>
-      <tag>all_waits</tag>
-      <text_to_display>remainder not yet programmed; press Play to exit</text_to_display>
-      <next_play>exit_01</next_play>
+      <name>at_bottom_of_show_01</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>11</cluster_number>
+      <next>at_bottom_of_show_02</next>
     </sequence_item>
 
     <sequence_item>
-      <name>exit_01</name>
+      <name>at_bottom_of_show_02</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>12</cluster_number>
+      <next>at_bottom_of_show_03</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>at_bottom_of_show_03</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>13</cluster_number>
+      <next>at_bottom_of_show_04</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>at_bottom_of_show_04</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>14</cluster_number>
+      <next>at_bottom_of_show_05</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>at_bottom_of_show_05</name>
       <type>cease_offering_sound</type>
       <cluster_number>15</cluster_number>
     </sequence_item>
+
+    <!--
+	Now we define the action performed when a start
+	button is pressed, or a cue arrives from the
+	external sequencer.
+    -->
+
+    <!-- top of show -->
     
+    <sequence_item>
+      <name>restart_top_of_show</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_top_of_show_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_01</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>restart_top_of_show_02</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_top_of_show_02</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>restart_top_of_show_03</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_03</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>10</cluster_number>
+      <next>restart_top_of_show_04</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_04</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>11</cluster_number>
+      <next>restart_top_of_show_05</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_05</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>12</cluster_number>
+      <next>restart_top_of_show_06</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_06</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>13</cluster_number>
+      <next>restart_top_of_show_07</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_07</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>14</cluster_number>
+      <next>restart_top_of_show_08</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_top_of_show_08</name>
+      <type>cease_offering_sound</type>
+      <cluster_number>15</cluster_number>
+      <next>Top_of_Show</next>
+    </sequence_item>
+
+    <!-- house is open -->
+    
+    <sequence_item>
+      <name>restart_house_is_open</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>restart_house_is_open_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_house_is_open_01</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_house_is_open_02</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_house_is_open_02</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>House_is_Open</next>
+    </sequence_item>
+
+    <!-- house to half -->
+    
+    <sequence_item>
+      <name>restart_house_to_half</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>restart_house_to_half_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_house_to_half_01</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_house_to_half_02</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_house_to_half_02</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>House_to_Half</next>
+    </sequence_item>
+
+    <!-- safety speech -->
+    
+    <sequence_item>
+      <name>restart_safety_speech</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>restart_safety_speech_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>restart_safety_speech_01</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_safety_speech_02</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_safety_speech_02</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>restart_safety_speech_03</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_safety_speech_03</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+      <next_completion>Safety_Speech</next_completion>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_act_1_begins</name>
+      <type>cancel_wait</type>
+      <tag>all_waits</tag>
+      <next>restart_act_1_begins_01</next>
+    </sequence_item>
+
+    <!-- beginning of act 1 -->
+    
+    <sequence_item>
+      <name>restart_act_1_begins_01</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>restart_act_1_begins_02</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_act_1_begins_02</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>restart_act_1_begins_03</next>
+    </sequence_item>
+    
+    <sequence_item>
+      <name>restart_act_1_begins_03</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+      <next_completion>Act_1_begins</next_completion>
+    </sequence_item>
+
+
+    <!-- If there is an emergency, we stop what we are doing
+	 and play the emergency message.
+    -->
+
+    <sequence_item>
+      <name>do_emergency</name>
+      <type>stop_sound</type>
+      <tag>safety_announcement</tag>
+      <next>do_emergency_01</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>do_emergency_01</name>
+      <type>stop_sound</type>
+      <tag>background</tag>
+      <next>do_emergency_02</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>do_emergency_02</name>
+      <type>wait</type>
+      <time_to_wait>0.1</time_to_wait>
+      <next_completion>do_emergency_03</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>do_emergency_03</name>
+      <type>start_sound</type>
+      <sound_name>emergency_message</sound_name>
+      <cluster_number>15</cluster_number>
+      <text_to_display>emergency message</text_to_display>
+      <importance>2</importance>
+      <next_completion>restart_top_of_show</next_completion>
+    </sequence_item>
+
+    <!-- When the sound effects player starts, the sequencer
+	 begins at Top_of_Show.  -->
+    
+    <sequence_item>
+      <name>start_of_sequence</name>
+      <type>start_sequence</type>
+      <next>Top_of_Show</next>
+    </sequence_item>
+
   </sound_sequence>
 </show_control>

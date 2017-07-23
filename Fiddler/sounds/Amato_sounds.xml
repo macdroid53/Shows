@@ -8,6 +8,17 @@
       <name>safety_announcement</name>
       <wav_file_name>CurtainSpeech_session.wav</wav_file_name>
     </sound>
+
+    <sound>
+      <name>emergency_message</name>
+      <wav_file_name>emergency_message.wav</wav_file_name>
+    </sound>
+
+    <sound>
+      <name>intermission_return</name>
+      <wav_file_name>08-Intermission_Return.wav</wav_file_name>
+      <start_time>2.0</start_time>
+    </sound>
     
     <routing></routing>
   </sounds>
