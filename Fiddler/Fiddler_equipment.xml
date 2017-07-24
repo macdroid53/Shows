@@ -26,6 +26,14 @@
       <sound_sequence href="sounds/Amato_sound_sequence.xml"/>
     </program>
 
+    <program id="CueEngine">
+      <name>CueEngine</name>
+      <type>master</type>
+      <IP_address>localhost</IP_address>
+      <port>5006</port>
+      <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
+    </program>
+
     <program id="lighting">
       <port></port>
       <IP_address></IP_address>
