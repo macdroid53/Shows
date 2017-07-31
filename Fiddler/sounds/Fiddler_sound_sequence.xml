@@ -43,7 +43,7 @@
       <name>House_is_Open</name>
       <type>operator_wait</type>
       <text_to_display>House is Open; press Play at House to Half.</text_to_display>
-      <tag>all-waits</tag>
+      <tag>all_waits</tag>
       <next>at_house_is_open</next>
       <next_play>House_to_Half</next_play>
     </sequence_item>
