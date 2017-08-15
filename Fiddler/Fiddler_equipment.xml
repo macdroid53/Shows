@@ -18,7 +18,7 @@
     
     <program id="ShowMixer">
       <name>ShowMixer</name>
-      <type>mixer</type>
+      <type>slave</type>
       <IP_address>localhost</IP_address>
       <port>5005</port>
       <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
@@ -31,6 +31,14 @@
       <type>master</type>
       <IP_address>localhost</IP_address>
       <port>5006</port>
+      <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
+    </program>
+
+    <program id="MuteMap">
+      <name>MuteMap</name>
+      <type>slave</type>
+      <IP_address>localhost</IP_address>
+      <port>5007</port>
       <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
     </program>
 
