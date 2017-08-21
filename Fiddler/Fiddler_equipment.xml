@@ -12,7 +12,7 @@
       </sounds>
       <port>5004</port>
       <IP_address>localhost</IP_address>
-      <MIDI_address></MIDI_address>
+      <MIDI_address/>
       <sound_sequence href="sounds/Fiddler_sound_sequence.xml"/>
     </program>
     
@@ -21,7 +21,7 @@
       <type>slave</type>
       <IP_address>localhost</IP_address>
       <port>5005</port>
-      <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
+      <MIDI_address/><!--for midi the address is simply  the address number "2"-->
       <sounds href="sounds/Amato_sounds.xml"/>
       <sound_sequence href="sounds/Amato_sound_sequence.xml"/>
     </program>
@@ -31,7 +31,7 @@
       <type>master</type>
       <IP_address>localhost</IP_address>
       <port>5006</port>
-      <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
+      <MIDI_address/><!--for midi the address is simply  the address number "2"-->
     </program>
 
     <program id="MuteMap">
@@ -39,19 +39,30 @@
       <type>slave</type>
       <IP_address>localhost</IP_address>
       <port>5007</port>
-      <MIDI_address></MIDI_address><!--for midi the address is simply  the address number "2"-->
+      <MIDI_address/><!--for midi the address is simply  the address number "2"-->
+    </program>
+
+    <program id="LISP">
+      <name>LISP</name>
+      <app href="/home/mac/SharedData/PycharmProjs/linux-show-player/linux-show-player"/>
+      <args>-f</args>
+      <setup>Fiddler-0.lsp</setup>
+      <type>slave</type>
+      <IP_address/>
+      <port/>
+      <MIDI_address>2</MIDI_address><!--for midi the address is simply  the address number "2"-->
     </program>
 
     <program id="lighting">
-      <port></port>
-      <IP_address></IP_address>
-      <MIDI_address></MIDI_address>
+      <port/>
+      <IP_address/>
+      <MIDI_address/>
     </program>
 
     <program id="microphones">
-      <port></port>
-      <IP_address></IP_address>
-      <MIDI_address></MIDI_address>
+      <port/>
+      <IP_address/>
+      <MIDI_address/>
     </program>
     
   </equipment>
