@@ -20,29 +20,16 @@
     <input mixerid="0" chan="17" actor="LukeCrory" char="Fyedka"/>
     <input mixerid="0" chan="18" actor="CristaBurrell" char="Russian"/>
     <input mixerid="0" chan="19" actor="LauraMajore" char="FrumaSarah"/>
+    <input mixerid="0" chan="19" actor="KarenHammes" char="Shaindel"/>
+    <input mixerid="0" chan="19" actor="RobynHolley" char="Robyn"/>
     <input mixerid="0" chan="20" actor="LibbySt.Jean" char="Libby"/>
     <input mixerid="0" chan="21" actor="JonNoble" char="Constable"/>
+    <input mixerid="0" chan="21" actor="PattyHelbig" char="GrandmaTzeitel"/>
+    <input mixerid="0" chan="21" actor="PattiO'Mara" char="Patti"/>
     <input mixerid="0" chan="22" actor="DebCurran" char="Deb"/>
     <input mixerid="0" chan="23" actor="LindseyMurch" char="Chava"/>
     <input mixerid="0" chan="24" actor="AllyLaManna" char="Yussel"/>
-    <input mixerid="0" chan="30" actor="HangingMics" char="HangingMics"/>
-  </mixermap>
-  <mixermap count="3" charcount="1" auxcount="0" uuid="f80592d0-d29d-43c5-a21f-7cf56ab5ee9d">
-    <input mixerid="0" chan="19" actor="KarenHammes" char="Shaindel"/>
-  </mixermap>
-  <mixermap count="6" charcount="1" auxcount="0" uuid="48f48885-afb8-4da6-8fde-4f4445c1779b">
-    <input mixerid="0" chan="19" actor="RobynHolley" char="Robyn"/>
-  </mixermap>
-  <mixermap count="1" charcount="1" auxcount="0" uuid="0467815c-9db7-4c71-8814-bf82c2145aad">
-    <input mixerid="0" chan="21" actor="PattyHelbig" char="GrandmaTzeitel"/>
-  </mixermap>
-  <mixermap count="2" charcount="1" auxcount="0" uuid="9729d603-0959-4e92-8598-a4a60843eeae">
-    <input mixerid="0" chan="21" actor="PattiO'Mara" char="Patti"/>
-  </mixermap>
-  <mixermap count="4" charcount="1" auxcount="0" uuid="6688e506-d5d7-4c7f-8662-e4d5bea19238">
-    <input mixerid="0" chan="21" actor="JonNoble" char="Constable"/>
-  </mixermap>
-  <mixermap count="5" charcount="1" auxcount="0" uuid="118c6f61-35a8-43a4-b796-db798a0a6b7d">
     <input mixerid="0" chan="24" actor="KerriGoolsby" char="Kerri"/>
+    <input mixerid="0" chan="30" actor="HangingMics" char="HangingMics"/>
   </mixermap>
 </show_control>

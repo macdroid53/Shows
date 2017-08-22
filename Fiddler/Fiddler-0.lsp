@@ -19,9 +19,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -61,9 +61,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -97,9 +97,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -133,9 +133,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -169,9 +169,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -205,9 +205,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -241,9 +241,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -288,9 +288,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "DbMeter",
                     "Volume",
                     "Equalizer10",
-                    "DbMeter",
                     "AutoSink"
                 ]
             },
@@ -307,6 +307,7 @@
             "default_start_action": "FadeInStart",
             "default_stop_action": "FadeOutStop",
             "duration": 73441,
+            "fadeout_duration": 4.0,
             "id": "ae17c078-8235-4c62-9271-14a7ff2e8282",
             "index": 8,
             "name": "CurtainSpeech_session",
