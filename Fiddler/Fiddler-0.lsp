@@ -19,9 +19,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -61,9 +61,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -97,9 +97,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -133,9 +133,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -169,9 +169,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -205,9 +205,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -241,9 +241,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -288,9 +288,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Equalizer10",
                     "DbMeter",
                     "Volume",
-                    "Equalizer10",
                     "AutoSink"
                 ]
             },
@@ -327,6 +327,22 @@
             },
             "id": "ac149be2-1233-4c0c-a40b-2e32927b9eca",
             "index": 9,
+            "name": "Fade-All",
+            "stylesheet": "font-size:9pt;"
+        },
+        {
+            "_type_": "StopAll",
+            "controller": {
+                "keyboard": [],
+                "midi": [
+                    [
+                        "note_on 0 60",
+                        "Start"
+                    ]
+                ]
+            },
+            "id": "b255e424-3826-46b1-a56a-4ef94456daa8",
+            "index": 10,
             "name": "Stop-All",
             "stylesheet": "font-size:9pt;"
         }

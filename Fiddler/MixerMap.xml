@@ -25,6 +25,7 @@
     <input mixerid="0" chan="22" actor="DebCurran" char="Deb"/>
     <input mixerid="0" chan="23" actor="LindseyMurch" char="Chava"/>
     <input mixerid="0" chan="24" actor="AllyLaManna" char="Yussel"/>
+    <input mixerid="0" chan="25" actor="KimNolan" char="Kim"/>
     <input mixerid="0" chan="30" actor="HangingMics" char="HangingMics"/>
   </mixermap>
   <mixermap count="1" charcount="1" auxcount="0" uuid="0467815c-9db7-4c71-8814-bf82c2145aad">
@@ -42,6 +43,7 @@
   </mixermap>
   <mixermap count="5" charcount="1" auxcount="0" uuid="48f48885-afb8-4da6-8fde-4f4445c1779b">
     <input mixerid="0" chan="19" actor="RobynHolley" char="Robyn"/>
+    <input mixerid="0" chan="25" actor="SueAbis" char="Sue"/>
   </mixermap>
 <!--  <mixermap count="5" charcount="1" auxcount="0" uuid="118c6f61-35a8-43a4-b796-db798a0a6b7d">
     <input mixerid="0" chan="24" actor="KerriGoolsby" char="Kerri"/>
