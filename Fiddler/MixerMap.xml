@@ -18,18 +18,27 @@
     <input mixerid="0" chan="15" actor="BenErdody" char="Sasha"/>
     <input mixerid="0" chan="16" actor="HadleyHarris" char="Shprintze"/>
     <input mixerid="0" chan="17" actor="LukeCrory" char="Fyedka"/>
-    <input mixerid="0" chan="18" actor="SteveHammes" char="Russian"/>
+    <input mixerid="0" chan="18" actor="ChristaBurrell" char="Russian"/>
     <input mixerid="0" chan="19" actor="LauraMajore" char="FrumaSarah"/>
     <input mixerid="0" chan="20" actor="LibbySt.Jean" char="Libby"/>
     <input mixerid="0" chan="21" actor="JonNoble" char="Constable"/>
     <input mixerid="0" chan="22" actor="DebCurran" char="Deb"/>
     <input mixerid="0" chan="23" actor="LindseyMurch" char="Chava"/>
     <input mixerid="0" chan="24" actor="AllyLaManna" char="Yussel"/>
-    <input mixerid="0" chan="25" actor="KimNolan" char="Kim"/>
+    <input mixerid="0" chan="25" actor="SteveHammes" char="SteveH"/>
     <input mixerid="0" chan="30" actor="HangingMics" char="HangingMics"/>
+    <input mixerid="0" chan="32" actor="Fiddler" char="Fiddler"/>
+    <aux mixerid="0" chan="1" actor="PCInL" char="PCInL"/>
+    <aux mixerid="0" chan="2" actor="PCInR" char="PCInR"/>
+    <bus mixerid="0" chan="1" actor="VocA" char="VocA"/>
+    <bus mixerid="0" chan="2" actor="VocB" char="VocB"/>
+    <bus mixerid="0" chan="3" actor="VocC" char="VocC"/>
+    <bus mixerid="0" chan="4" actor="PitMon" char="PitMon"/>
+    <bus mixerid="0" chan="5" actor="StgMon" char="StgMon"/>
   </mixermap>
   <mixermap count="1" charcount="1" auxcount="0" uuid="0467815c-9db7-4c71-8814-bf82c2145aad">
     <input mixerid="0" chan="21" actor="PattyHelbig" char="GrandmaTzeitel"/>
+    <input mixerid="0" chan="25" actor="KimNolan" char="Kim"/>
   </mixermap>
   <mixermap count="2" charcount="1" auxcount="0" uuid="9729d603-0959-4e92-8598-a4a60843eeae">
     <input mixerid="0" chan="21" actor="PattiO'Mara" char="Patti"/>
