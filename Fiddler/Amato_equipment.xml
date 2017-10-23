@@ -20,7 +20,7 @@
       <type>sound</type>
       <IP_address>localhost</IP_address>
       <port>5005</port>
-      <MIDI_address></MIDI_address>
+      <MIDI_address/>
       <sounds href="sounds/Amato_sounds.xml"/>
       <sound_sequence href="sounds/Amato_sound_sequence.xml"/>
     </program>
@@ -30,7 +30,8 @@
           <mfr>Behringer</mfr>
 	  <model>X32</model>
 	  <port>10023</port>
-	  <IP_address>192.168.53.40</IP_address>
+	  <IP_address>10.10.16.5</IP_address>
+	  <!--<IP_address>192.168.53.40</IP_address>-->
           <!--<MIDI_address></MIDI_address>-->
        </mixer><!--for udp the address tag is a comma separate pair "IP,PORT"-->
        <!--<mixer id="1">

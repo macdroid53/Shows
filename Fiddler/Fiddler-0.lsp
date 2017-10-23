@@ -19,9 +19,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -61,9 +61,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -97,9 +97,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -133,9 +133,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -169,9 +169,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -205,9 +205,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -241,9 +241,9 @@
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },
@@ -281,16 +281,13 @@
                         "_mtime": 1500561751.093309,
                         "duration": 73441,
                         "uri": "file:///home/mac/Shows/Fiddler/sounds/CurtainSpeech_session.flac"
-                    },
-                    "Volume": {
-                        "normal_volume": 0.7055048440506527
                     }
                 },
                 "pipe": [
                     "UriInput",
+                    "Volume",
                     "Equalizer10",
                     "DbMeter",
-                    "Volume",
                     "AutoSink"
                 ]
             },

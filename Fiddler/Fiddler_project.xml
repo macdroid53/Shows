@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!-- The outer structure name is "show_control" to identify
      XML files belonging to the show_control project.  If the user
      tries to read an XML file intended for some other application,
@@ -42,6 +41,7 @@
     <equipment href="Fiddler_equipment.xml"/>
     
     <mixermap href="MixerMap.xml"/>
+    <charmap href="FiddlerChar_char.xml"/>
     <cues href="Amato_cues.xml"/>
     <cues href="Fiddler_cuesx.xml"/>
 

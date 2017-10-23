@@ -44,7 +44,7 @@
 
     <program id="LISP">
       <name>LISP</name>
-      <app href="/home/mac/SharedData/PycharmProjs/linux-show-player/linux-show-player"/>
+      <app href="/home/mac/PycharmProjs/linux-show-player/linux-show-player"/>
       <args>-f</args>
       <setup>Fiddler-0.lsp</setup>
       <type>slave</type>
