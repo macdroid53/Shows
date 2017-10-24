@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The outer structure name is "show_control" to identify
+     XML files belonging to the show_control project.  If the user
+     tries to read an XML file intended for some other application,
+     we can give a meaningful error message.  -->
+<show_control>
+
+  <!-- This is the project file.  Other XML files used by the
+       show_control application are equipment, cues, characters, crew,
+       script, sounds and sound_sequence. By putting the purpose of the
+       file here, we can give a meaningful error message if the user
+       tries to read the wrong file.  -->
+  <project>
+
+    <!-- XML format lets us add more values without impacting old readers.
+	 However, if we need to make an incompatible change to an old
+	 value, having the version number lets us give a good error message
+	 if an old program tries to read a newer, incompatible, file.
+	 Every reader must check the version number and reject versions
+	 it does not know how to read.  The first part of the number is
+	 incremented on an incompatible change, the second part on a compatible
+	 change: one that adds a value that can be ignored by old readers,
+	 for example.  When reading, a program will check the first part of
+	 the number and adapt its reading to the indicated format.
+	 When writing, a program will use the oldest format capable of
+	 expressing the information correctly.  The first version of the
+	 show_control programs will reject version numbers in which the value
+	 before the decimal point is not equal to 1.  -->
+    <version>1.0</version>
+
+    <!-- a short description of the project -->
+    <title>CharTest, October 2017</title>
+
+    <!-- The light board, sound mixer, etc, used at the Amato Theater.
+	 This information is independent of the production.  This file
+	 includes the IP address and port number used to communicate
+	 from the sequencer to the sound effects player, the light
+	 board controller and the microphone handler.  -->
+    <equipment href="Amato_equipment.xml"/>
+
+    <equipment href="CharTest_equipment.xml"/>
+    
+    <mixermap href="MixerMap.xml"/>
+    <charmap href="CharTest_char.xml"/>
+    <cues href="Amato_cues.xml"/>
+    <cues href="CharTest_cuesx.xml"/>
+
+    <crew href="Amato_crew_for_Fiddler.xml"/>
+
+    <script lang="cueml" href="CharTest.xml"/>
+
+  </project>
+</show_control>

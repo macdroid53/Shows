@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<show_control>
+  <!-- This file contains additional information about the theater
+       infrastructure used by Fiddler on the Roof.  Information is
+       merged with the standard equipment file based on the ID of the program.
+  -->
+  <equipment>
+    <version>1.0</version>
+
+    <program id="sound_effects">
+      <sounds href="sounds/Fiddler_sounds.xml">
+      </sounds>
+      <port>5004</port>
+      <IP_address>localhost</IP_address>
+      <MIDI_address/>
+      <sound_sequence href="sounds/Fiddler_sound_sequence.xml"/>
+    </program>
+    
+    <program id="ShowMixer">
+      <name>ShowMixer</name>
+      <type>slave</type>
+      <IP_address>localhost</IP_address>
+      <port>5005</port>
+      <MIDI_address/><!--for midi the address is simply  the address number "2"-->
+      <sounds href="sounds/Amato_sounds.xml"/>
+      <sound_sequence href="sounds/Amato_sound_sequence.xml"/>
+    </program>
+
+    <program id="CueEngine">
+      <name>CueEngine</name>
+      <type>master</type>
+      <IP_address>localhost</IP_address>
+      <port>5006</port>
+      <MIDI_address/><!--for midi the address is simply  the address number "2"-->
+    </program>
+
+    <program id="MuteMap">
+      <name>MuteMap</name>
+      <type>slave</type>
+      <IP_address>localhost</IP_address>
+      <port>5007</port>
+      <MIDI_address/><!--for midi the address is simply  the address number "2"-->
+    </program>
+
+    <program id="LISP">
+      <name>LISP</name>
+      <app href="/home/mac/PycharmProjs/linux-show-player/linux-show-player"/>
+      <args>-f</args>
+      <setup>Fiddler-0.lsp</setup>
+      <type>slave</type>
+      <IP_address/>
+      <port/>
+      <MIDI_address>2</MIDI_address><!--for midi the address is simply  the address number "2"-->
+    </program>
+
+    <program id="lighting">
+      <port/>
+      <IP_address/>
+      <MIDI_address/>
+    </program>
+
+    <program id="microphones">
+      <port/>
+      <IP_address/>
+      <MIDI_address/>
+    </program>
+    
+  </equipment>
+</show_control>
