@@ -4,119 +4,131 @@
   <chars>
     <char uuid="ddc3408a-94a4-4824-8e4a-9ad3f2ba1253">
       <name>Tevye</name>
-      <actor>PatrickMcCarty</actor>
+      <actor>f43974e9-d99d-4d0c-94c0-582da00b8ee6</actor>
     </char>
     <char uuid="bb61f5f3-847b-4d5f-aa37-49a910128c44">
       <name>Golde</name>
-      <actor>KarinHarvey-Olsen</actor>
+      <actor>bc09e840-d726-4f03-92f7-24093de33052</actor>
     </char>
     <char uuid="b35c27be-2172-48b5-9f51-3da04035bc87">
       <name>Hodel</name>
-      <actor>KatieGiannokopoulos</actor>
+      <actor>3a7d4f22-b0bf-4c24-81bc-4e025a5b8a95</actor>
     </char>
     <char uuid="c36aa56e-e552-44f2-9c55-b0dd2c663bf6">
       <name>Tzeitel</name>
-      <actor>LaurenBusa</actor>
+      <actor>fd104e89-da9c-40e0-968b-5c8a06425f75</actor>
     </char>
     <char uuid="bdcd846f-ce51-4b10-a4b8-d2ba4ecd7682">
       <name>Mendel</name>
-      <actor>GabeGarcia</actor>
+      <actor>79bb82ce-e00d-41dc-a35d-283f68bd7521</actor>
     </char>
     <char uuid="e1265162-924b-444f-bbed-51f838f58e93">
       <name>Innkeeper</name>
-      <actor>SteveKelley</actor>
+      <actor>07940948-687f-4f37-bd9d-fc81e8dcf286</actor>
     </char>
     <char uuid="76980106-4ba4-4059-b4d7-bb1426409432">
       <name>Avram</name>
-      <actor>MelBucklin</actor>
+      <actor>9e4b6807-5640-4228-9ee9-cbb33b073f36</actor>
     </char>
     <char uuid="a5c37b1f-a7e8-4e10-8745-ddadee4399f5">
       <name>LazarWolf</name>
-      <actor>JimO'Mara</actor>
+      <actor>79bb82ce-e00d-41dc-a35d-283f68bd7521</actor>
     </char>
     <char uuid="a28818d8-1422-4835-bcc1-3ae1a1eccbcd">
       <name>Perchik</name>
-      <actor>DuncanMcGrath</actor>
+      <actor>62b47db5-3eb5-4d20-8e67-fa348c4cc771</actor>
     </char>
     <char uuid="9f70ad2d-81f9-434d-9070-40a963353545">
       <name>Motel</name>
-      <actor>WilliamDesharnais</actor>
+      <actor>d100aba2-32aa-48b0-8fc8-60e6c6e7e1a4</actor>
     </char>
     <char uuid="21278ed0-6d94-469e-bce2-058d4b1e7b00">
       <name>Bielke</name>
-      <actor>EmmaMelanson</actor>
+      <actor>0f81d79c-1836-4b1a-86b5-8bb3d2a7cf1a</actor>
     </char>
     <char uuid="45f72a44-cadd-4eca-9a20-655c885095c7">
       <name>Yente</name>
-      <actor>LucySpencer</actor>
+      <actor>747f466b-0819-4bad-b920-d78e3c11c515</actor>
     </char>
     <char uuid="173d8241-ad48-4554-bbab-1d433d72138d">
       <name>RebNachum</name>
-      <actor>RichSparks</actor>
+      <actor>a2dd2cca-305f-49e1-b443-138bf6b475b2</actor>
     </char>
     <char uuid="765f82ff-7218-47d0-8c1f-acbd4d7b4dce">
       <name>Rabbi</name>
-      <actor>RussellArrowsmith</actor>
+      <actor>4b03a653-8845-449e-aa5d-056601d8f879</actor>
     </char>
     <char uuid="26ebb276-6e69-48a6-afa8-bd9a5628c2fd">
       <name>Sasha</name>
-      <actor>BenErdody</actor>
+      <actor>bcbebaef-d9a3-4ac4-9cf8-68b7a37e3404</actor>
     </char>
     <char uuid="d29161a2-94cf-4e51-9259-e2f3539be26e">
       <name>Shprintze</name>
-      <actor>HadleyHarris</actor>
+      <actor>f40d4ccd-1582-4f9d-824a-7618b5b3e75b</actor>
     </char>
     <char uuid="652cbfe1-cf1d-45a2-a720-5f10649df38a">
       <name>Fyedka</name>
-      <actor>LukeCrory</actor>
+      <actor>02bab09e-53b1-4600-af56-9241618b6a9b</actor>
     </char>
     <char uuid="bc36dbf3-fee8-4386-91d2-7e76c1b17b81">
       <name>Russian</name>
-      <actor>ChristaBurrell</actor>
+      <actor>44349e2e-010b-4d46-8a61-212b9f24acc1</actor>
     </char>
     <char uuid="6d4838e0-3b6b-4df8-af3f-d909edad88d3">
       <name>FrumaSarah</name>
-      <actor>LauraMajore</actor>
+      <actor>9ad1c101-9aec-4be6-8da5-7a8df339a0bb</actor>
     </char>
     <char uuid="a7f3acfb-8a27-456a-b587-428512fab7b4">
       <name>Libby</name>
-      <actor>LibbySt.Jean</actor>
+      <actor>bf7bbf65-fcc7-467e-bc3d-d687790f0fe5</actor>
     </char>
     <char uuid="4b0ddc9d-f05b-46a8-92cb-e9ecbcdb2de0">
       <name>Constable</name>
-      <actor>JonNoble</actor>
+      <actor>f827b911-423c-49f6-9a59-4bab917586bf</actor>
     </char>
     <char uuid="e838156d-3ba3-4787-a195-3d07661266d1">
       <name>Deb</name>
-      <actor>DebCurran</actor>
+      <actor>14ef5d1e-e655-428f-af4e-61a7ca23584e</actor>
     </char>
     <char uuid="98e0b5e3-cb19-4df7-9cfb-a6461c10a739">
       <name>Chava</name>
-      <actor>LindseyMurch</actor>
+      <actor>fbeb455d-bb5e-4cab-8217-ee4ca450829b</actor>
     </char>
     <char uuid="cbd3d420-6a48-4219-b179-84c80ac70b46">
       <name>Yussel</name>
-      <actor>AllyLaManna</actor>
+      <actor>e1cb3be4-5c3c-47db-8b97-c930e6eed1f5</actor>
     </char>
     <char uuid="7f0af778-bf45-4b73-8df5-3a426ed3ee50">
       <name>SteveH</name>
-      <actor>SteveHammes</actor>
+      <actor>ab0ffb95-d7d7-4132-851a-959a7c21327d</actor>
     </char>
     <char uuid="393d55ba-afaa-4d4d-ae0b-a61ba8744c0f">
       <name>HangingMics</name>
-      <actor>HangingMics</actor>
+      <actor>2a61e704-be31-450c-8c85-85c40045451b</actor>
     </char>
     <char uuid="06374e37-194c-4327-a1d8-fc096aafca30">
       <name>Fiddler</name>
-      <actor>Fiddler</actor>
+      <actor>8cc64802-8384-441f-92d5-798b1a8a4737</actor>
     </char>
     <char uuid="bbcf7227-dbaa-49fc-a7e4-6c3db5d52b22">
       <name>Pretty</name>
-      <actor>Print</actor>
+      <actor>18d9a846-97dc-4846-9a9c-39bbb7a717f8</actor>
     </char>
     <char uuid="b258a858-ee85-48ea-98b6-f899eed3036a">
-      <name>New Char</name>
-      <actor>New Actor</actor>
+      <name>Batman</name>
+      <actor>3ed35a21-bf0f-40f5-af90-26e20b02be48</actor>
+    </char>
+    <char uuid="0e4d4640-5b94-4915-bfd5-e1fadfc15f71">
+      <name>Scrooge</name>
+      <actor>670e6ca0-3252-41fa-bbe6-7d1a70f68caa</actor>
+    </char>
+    <char uuid="af0080f3-224c-4a33-870c-b4ea45f6ae7d">
+      <name>Scooge</name>
+      <actor>ab0ffb95-d7d7-4132-851a-959a7c21327d</actor>
+    </char>
+    <char uuid="9cd2a0e7-505f-4a65-99a7-adef9a6f077e">
+      <name>Scoobydo</name>
+      <actor>14ef5d1e-e655-428f-af4e-61a7ca23584e</actor>
     </char>
   </chars>
 </showcontrol>

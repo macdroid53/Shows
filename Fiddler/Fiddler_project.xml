@@ -41,7 +41,8 @@
     <equipment href="Fiddler_equipment.xml"/>
     
     <mixermap href="MixerMap.xml"/>
-    <charmap href="FiddlerChar_char.xml"/>
+    <charmap href="Fiddler_char.xml"/>
+    <actormap href="Fiddler_actor.xml"/>
     <cuechar href="FiddlerChar_cuechar.xml"/>
     <cues href="Amato_cues.xml"/>
     <cues href="Fiddler_cuesx.xml"/>
