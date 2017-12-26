@@ -26,7 +26,7 @@
     </program>
 
     <mixers>
-       <mixer id="0">
+       <mixer uuid="b0527d7c-935f-44f7-86ab-101adacf8b80" id="0">
           <mfr>Behringer</mfr>
 	  <model>X32</model>
 	  <port>10023</port>

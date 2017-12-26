@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" ?>
+<showcontrol>
+  <mixers>
+    <version>1.0</version>
+    <mixer mfr="Behringer" uuid="b0527d7c-935f-44f7-86ab-101adacf8b80">
+      <strip uuid="62447a24-8660-42f8-89bc-c070397de56f">
+        <name>Ch01</name>
+        <type>input</type>
+        <channum>1</channum>
+      </strip>
+      <strip uuid="42bf4f31-82ce-4779-919c-589acbf13874">
+        <name>Ch02</name>
+        <type>input</type>
+        <channum>2</channum>
+      </strip>
+      <strip uuid="605eb650-5bbd-49b2-bda8-2a6864f43e3b">
+        <name>Ch03</name>
+        <type>input</type>
+        <channum>3</channum>
+      </strip>
+      <strip uuid="3b99399e-bb77-4614-9742-e1be72ceafe5">
+        <name>Ch04</name>
+        <type>input</type>
+        <channum>4</channum>
+      </strip>
+      <strip uuid="4deab3c6-42b0-4e93-a000-efebbb05164a">
+        <name>Ch05</name>
+        <type>input</type>
+        <channum>5</channum>
+      </strip>
+      <strip uuid="d38ae3ca-61f6-4474-84e6-6e5b8e84a023">
+        <name>Ch06</name>
+        <type>input</type>
+        <channum>6</channum>
+      </strip>
+      <strip uuid="ebc9d3ac-c241-414d-be7f-8cc41b7c1a8c">
+        <name>Ch07</name>
+        <type>input</type>
+        <channum>7</channum>
+      </strip>
+      <strip uuid="466df7e8-b7e7-40aa-a880-017fc494abca">
+        <name>Ch08</name>
+        <type>input</type>
+        <channum>8</channum>
+      </strip>
+      <strip uuid="925e7edb-4495-4404-a6eb-a31893c4ae5d">
+        <name>Ch09</name>
+        <type>input</type>
+        <channum>9</channum>
+      </strip>
+      <strip uuid="106291c7-6dcc-4e45-a498-4ba7e3f235f7">
+        <name>Ch10</name>
+        <type>input</type>
+        <channum>10</channum>
+      </strip>
+      <strip uuid="578eaec3-2fcd-4946-b4f0-3b15219a5fe3">
+        <name>Ch11</name>
+        <type>input</type>
+        <channum>11</channum>
+      </strip>
+      <strip uuid="c1ce9361-e799-42f9-9073-d30f717409c3">
+        <name>Ch12</name>
+        <type>input</type>
+        <channum>12</channum>
+      </strip>
+      <strip uuid="4499f1dc-4014-4884-8458-18bbdc24e8f1">
+        <name>Ch13</name>
+        <type>input</type>
+        <channum>13</channum>
+      </strip>
+      <strip uuid="05046589-58c1-4390-839c-fd88fb73f389">
+        <name>Ch14</name>
+        <type>input</type>
+        <channum>14</channum>
+      </strip>
+      <strip uuid="07161a15-7555-4cd5-8f9b-b652ad46d2be">
+        <name>Ch15</name>
+        <type>input</type>
+        <channum>15</channum>
+      </strip>
+      <strip uuid="d24ff23e-41e3-43d4-b2a2-fa24eb43ee9e">
+        <name>Ch16</name>
+        <type>input</type>
+        <channum>16</channum>
+      </strip>
+      <strip uuid="dfbf45a2-c21e-47fe-baa6-7d23f1d8b0e0">
+        <name>Ch17</name>
+        <type>input</type>
+        <channum>17</channum>
+      </strip>
+      <strip uuid="fde67e83-55c7-4a07-af8b-76e9e9ecabff">
+        <name>Ch18</name>
+        <type>input</type>
+        <channum>18</channum>
+      </strip>
+      <strip uuid="a3c3476e-fa50-4602-93d8-cbaeb8af9a77">
+        <name>Ch19</name>
+        <type>input</type>
+        <channum>19</channum>
+      </strip>
+      <strip uuid="b7a78c00-f67e-48a5-a4ff-65331da6da5b">
+        <name>Ch20</name>
+        <type>input</type>
+        <channum>20</channum>
+      </strip>
+      <strip uuid="7d56c021-d19e-41fe-bb54-682d61845e14">
+        <name>Ch21</name>
+        <type>input</type>
+        <channum>21</channum>
+      </strip>
+      <strip uuid="04540cea-7523-4a16-826a-cf0e5698e1b2">
+        <name>Ch22</name>
+        <type>input</type>
+        <channum>22</channum>
+      </strip>
+      <strip uuid="582ed620-13d8-475b-bf88-35ba99e49f4c">
+        <name>Ch23</name>
+        <type>input</type>
+        <channum>23</channum>
+      </strip>
+      <strip uuid="06c89508-9c07-4dec-821c-dca824a4bfa5">
+        <name>Ch24</name>
+        <type>input</type>
+        <channum>24</channum>
+      </strip>
+      <strip uuid="a7d26ed3-ef67-4420-bf74-a353505bb6e0">
+        <name>Ch25</name>
+        <type>input</type>
+        <channum>25</channum>
+      </strip>
+      <strip uuid="34f8c4a2-a97e-42e6-a2e9-a330a0fe6264">
+        <name>Ch26</name>
+        <type>input</type>
+        <channum>26</channum>
+      </strip>
+      <strip uuid="ea98cc59-bb40-4d8c-8eb1-26c8d396aefc">
+        <name>Ch27</name>
+        <type>input</type>
+        <channum>27</channum>
+      </strip>
+      <strip uuid="da6ab34e-5266-409d-a805-4893bd6ee2f1">
+        <name>Ch28</name>
+        <type>input</type>
+        <channum>28</channum>
+      </strip>
+      <strip uuid="fb9972be-ce0a-4acd-96d9-c1ef29c23bad">
+        <name>Ch29</name>
+        <type>input</type>
+        <channum>29</channum>
+      </strip>
+      <strip uuid="da7a3779-6f38-4464-b74c-a91f49ac926a">
+        <name>Ch30</name>
+        <type>input</type>
+        <channum>30</channum>
+      </strip>
+      <strip uuid="bb5b04f6-d5d3-437f-a521-585c9861b635">
+        <name>Ch31</name>
+        <type>input</type>
+        <channum>31</channum>
+      </strip>
+      <strip uuid="8897288a-0ac5-4502-8631-b6a760b3a279">
+        <name>Ch32</name>
+        <type>input</type>
+        <channum>32</channum>
+      </strip>
+      <strip uuid="d75044a1-9d19-4bb2-ba9a-d470d69fd0a2">
+        <name>Aux01</name>
+        <type>auxin</type>
+        <channum>1</channum>
+      </strip>
+      <strip uuid="0bd67982-2655-41ef-bef5-3020c7316de9">
+        <name>Aux02</name>
+        <type>auxin</type>
+        <channum>2</channum>
+      </strip>
+      <strip uuid="edb364b5-e378-41f7-a95e-9a96a6b38f99">
+        <name>Aux03</name>
+        <type>auxin</type>
+        <channum>3</channum>
+      </strip>
+      <strip uuid="758fd3c8-8edb-4868-8127-fddf58922d05">
+        <name>Aux04</name>
+        <type>auxin</type>
+        <channum>4</channum>
+      </strip>
+      <strip uuid="500352ec-0f6c-4fad-ab83-63e398af66b1">
+        <name>Aux05</name>
+        <type>auxin</type>
+        <channum>5</channum>
+      </strip>
+      <strip uuid="32385231-8f32-424b-94c0-6112c3c053f3">
+        <name>Aux06</name>
+        <type>auxin</type>
+        <channum>6</channum>
+      </strip>
+      <strip uuid="a19937f9-645f-4fa8-8a2f-38aa805f655f">
+        <name>Bus01</name>
+        <type>bus</type>
+        <channum>1</channum>
+      </strip>
+      <strip uuid="ee53d705-bcf5-4f71-aec4-07fbb445879e">
+        <name>Bus02</name>
+        <type>bus</type>
+        <channum>2</channum>
+      </strip>
+      <strip uuid="91c558c1-fcff-41a8-8005-d1480b14e5b7">
+        <name>Bus03</name>
+        <type>bus</type>
+        <channum>3</channum>
+      </strip>
+      <strip uuid="db2fad88-33de-4ce3-939c-02e2abd50108">
+        <name>Bus04</name>
+        <type>bus</type>
+        <channum>4</channum>
+      </strip>
+      <strip uuid="aca95f6f-17f5-4ac1-bbd8-1c1ae169d8b3">
+        <name>Bus05</name>
+        <type>bus</type>
+        <channum>5</channum>
+      </strip>
+      <strip uuid="e195d654-c17c-40c5-8dbf-a1ef1409cfe7">
+        <name>Bus06</name>
+        <type>bus</type>
+        <channum>6</channum>
+      </strip>
+      <strip uuid="ba4d166a-05c7-4435-a67a-a516d93f9213">
+        <name>Bus07</name>
+        <type>bus</type>
+        <channum>7</channum>
+      </strip>
+      <strip uuid="20f25716-da8d-46fe-9402-f8d7aa7c59f3">
+        <name>Bus08</name>
+        <type>bus</type>
+        <channum>8</channum>
+      </strip>
+      <strip uuid="bff3d260-7a00-4efc-ac16-6d1f3b56bcd6">
+        <name>Bus09</name>
+        <type>bus</type>
+        <channum>9</channum>
+      </strip>
+      <strip uuid="56548f82-500a-4750-a9eb-606cf5dacadf">
+        <name>Bus10</name>
+        <type>bus</type>
+        <channum>10</channum>
+      </strip>
+      <strip uuid="094a4e19-f2bb-48a0-9120-0165a3c0a160">
+        <name>Bus11</name>
+        <type>bus</type>
+        <channum>11</channum>
+      </strip>
+      <strip uuid="2cff64b9-b4cf-4321-860d-39b6fdb2ea9e">
+        <name>Bus12</name>
+        <type>bus</type>
+        <channum>12</channum>
+      </strip>
+      <strip uuid="893e3b12-a19a-4a58-b63e-05c2892569e3">
+        <name>Bus13</name>
+        <type>bus</type>
+        <channum>13</channum>
+      </strip>
+      <strip uuid="81a7ffc2-263a-4d93-b382-4c52eb29be57">
+        <name>Bus14</name>
+        <type>bus</type>
+        <channum>14</channum>
+      </strip>
+      <strip uuid="f38ef7c8-6937-4d70-b367-16fcf302b0cd">
+        <name>Bus15</name>
+        <type>bus</type>
+        <channum>15</channum>
+      </strip>
+      <strip uuid="382c2aac-729c-47b2-9382-4d088ec79583">
+        <name>Bus16</name>
+        <type>bus</type>
+        <channum>16</channum>
+      </strip>
+      <strip uuid="6b9d4712-49d8-4fc0-bfb8-8fe2d141dbc9">
+        <name>Main01</name>
+        <type>main</type>
+        <channum>1</channum>
+      </strip>
+    </mixer>
+    <mixer mfr="Yamaha" uuid="b3170799-4230-48ce-a79b-a23deef66969">
+      <strip uuid="c558a9a1-3617-476b-b79e-c0de4dbc8687">
+        <name>Ch01</name>
+        <type>input</type>
+        <channum>0</channum>
+      </strip>
+      <strip uuid="d1b58878-4796-4cab-914e-d503a1554f19">
+        <name>Ch02</name>
+        <type>input</type>
+        <channum>1</channum>
+      </strip>
+      <strip uuid="a2fb4843-6056-4f63-83f0-9f3aedf54629">
+        <name>Ch03</name>
+        <type>input</type>
+        <channum>2</channum>
+      </strip>
+      <strip uuid="8eeb0b3f-d357-4c13-881b-17568d57aa43">
+        <name>Ch04</name>
+        <type>input</type>
+        <channum>3</channum>
+      </strip>
+      <strip uuid="797bdf99-3de6-427e-82c3-41fe732252bb">
+        <name>Ch05</name>
+        <type>input</type>
+        <channum>4</channum>
+      </strip>
+      <strip uuid="e68fa05a-c19c-4bc3-8d66-d4b3e12b53fc">
+        <name>Ch06</name>
+        <type>input</type>
+        <channum>5</channum>
+      </strip>
+      <strip uuid="57b20031-7c48-4cef-9062-99aa33f117d5">
+        <name>Ch07</name>
+        <type>input</type>
+        <channum>6</channum>
+      </strip>
+      <strip uuid="c53ee9a3-087c-491b-bab3-70d1a2926f08">
+        <name>Ch08</name>
+        <type>input</type>
+        <channum>7</channum>
+      </strip>
+      <strip uuid="3db6eb99-f091-4b55-b645-f71869784255">
+        <name>Ch09</name>
+        <type>input</type>
+        <channum>8</channum>
+      </strip>
+      <strip uuid="2e4fff4e-c9b7-43c4-86b7-891546423631">
+        <name>Ch10</name>
+        <type>input</type>
+        <channum>9</channum>
+      </strip>
+      <strip uuid="a14ead85-b89f-4674-915a-457a97a1bbbf">
+        <name>Ch11</name>
+        <type>input</type>
+        <channum>10</channum>
+      </strip>
+      <strip uuid="676e6bd0-94b7-4b84-972e-e04e2e725567">
+        <name>Ch12</name>
+        <type>input</type>
+        <channum>11</channum>
+      </strip>
+      <strip uuid="5184f1d3-a91e-4a20-b06c-9c302c76589a">
+        <name>Ch13</name>
+        <type>input</type>
+        <channum>12</channum>
+      </strip>
+      <strip uuid="220156a8-1640-4e4a-9a0c-bef246db9248">
+        <name>Ch14</name>
+        <type>input</type>
+        <channum>13</channum>
+      </strip>
+      <strip uuid="f11a5f27-a816-4d99-9528-c36f024b26be">
+        <name>Aux01</name>
+        <type>auxmaster</type>
+        <channum>0</channum>
+      </strip>
+      <strip uuid="c3998bb9-7ae1-47be-a17d-8a637c93b4fb">
+        <name>Aux02</name>
+        <type>auxmaster</type>
+        <channum>1</channum>
+      </strip>
+      <strip uuid="449ee346-ffde-4f92-a729-a0797a74238b">
+        <name>Aux03</name>
+        <type>auxmaster</type>
+        <channum>2</channum>
+      </strip>
+      <strip uuid="75d70c65-c4de-43a9-b08d-10cb88380a9a">
+        <name>Aux04</name>
+        <type>auxmaster</type>
+        <channum>3</channum>
+      </strip>
+      <strip uuid="eadd34ad-aeda-40fc-a0a7-986008c2d82d">
+        <name>Bus01</name>
+        <type>busmaster</type>
+        <channum>0</channum>
+      </strip>
+      <strip uuid="ba03b46f-9ff1-4206-bef2-d193ede2103e">
+        <name>Bus02</name>
+        <type>busmaster</type>
+        <channum>1</channum>
+      </strip>
+      <strip uuid="3602e398-d0e9-4a6d-a821-ef9f7c77ac12">
+        <name>Bus03</name>
+        <type>busmaster</type>
+        <channum>2</channum>
+      </strip>
+      <strip uuid="0191027c-28d3-48d5-9423-1631ed29df69">
+        <name>Bus04</name>
+        <type>busmaster</type>
+        <channum>3</channum>
+      </strip>
+      <strip uuid="5012ed5b-3121-4a71-b63a-a1f8278a1bcd">
+        <name>Out01</name>
+        <type>stout</type>
+        <channum>0</channum>
+      </strip>
+    </mixer>
+  </mixers>
+</showcontrol>

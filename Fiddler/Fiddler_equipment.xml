@@ -65,5 +65,15 @@
       <MIDI_address/>
     </program>
     
+    <!--<mixers>
+       <mixer uuid="b3170799-4230-48ce-a79b-a23deef66969" id="1">
+          <mfr>Yamaha</mfr>
+          <model>01V</model>
+          <IP_address/>
+          <port/>
+          <MIDI_address>2</MIDI_address>
+       </mixer>
+     </mixers> -->
+
   </equipment>
 </show_control>

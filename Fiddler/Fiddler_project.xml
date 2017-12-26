@@ -44,6 +44,7 @@
     <charmap href="Fiddler_char.xml"/>
     <actormap href="Fiddler_actor.xml"/>
     <cuechar href="FiddlerChar_cuechar.xml"/>
+    <charstrip href="Fiddler_charstrip.xml"/>
     <cues href="Amato_cues.xml"/>
     <cues href="Fiddler_cuesx.xml"/>
 

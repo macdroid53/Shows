@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<showcontrol>
+  <chars>
+    <version>1.0</version>
+    <char uuid="ddc3408a-94a4-4824-8e4a-9ad3f2ba1253">
+      <strip uuid="62447a24-8660-42f8-89bc-c070397de56f"/>
+    </char>
+    <char uuid="bb61f5f3-847b-4d5f-aa37-49a910128c44">
+      <strip uuid="42bf4f31-82ce-4779-919c-589acbf13874"/>
+    </char>
+    <char uuid="b35c27be-2172-48b5-9f51-3da04035bc87">
+      <strip uuid="605eb650-5bbd-49b2-bda8-2a6864f43e3b"/>
+    </char>
+    <char uuid="c36aa56e-e552-44f2-9c55-b0dd2c663bf6">
+      <strip uuid="3b99399e-bb77-4614-9742-e1be72ceafe5"/>
+    </char>
+    <char uuid="bdcd846f-ce51-4b10-a4b8-d2ba4ecd7682">
+      <strip uuid="4deab3c6-42b0-4e93-a000-efebbb05164a"/>
+    </char>
+    <char uuid="e1265162-924b-444f-bbed-51f838f58e93">
+      <strip uuid="d38ae3ca-61f6-4474-84e6-6e5b8e84a023"/>
+    </char>
+    <char uuid="76980106-4ba4-4059-b4d7-bb1426409432">
+      <strip uuid="ebc9d3ac-c241-414d-be7f-8cc41b7c1a8c"/>
+    </char>
+    <char uuid="a5c37b1f-a7e8-4e10-8745-ddadee4399f5">
+      <strip uuid="466df7e8-b7e7-40aa-a880-017fc494abca"/>
+    </char>
+    <char uuid="a28818d8-1422-4835-bcc1-3ae1a1eccbcd">
+      <strip uuid="925e7edb-4495-4404-a6eb-a31893c4ae5d"/>
+    </char>
+    <char uuid="9f70ad2d-81f9-434d-9070-40a963353545">
+      <strip uuid="106291c7-6dcc-4e45-a498-4ba7e3f235f7"/>
+    </char>
+    <char uuid="21278ed0-6d94-469e-bce2-058d4b1e7b00">
+      <strip uuid="578eaec3-2fcd-4946-b4f0-3b15219a5fe3"/>
+    </char>
+    <char uuid="45f72a44-cadd-4eca-9a20-655c885095c7">
+      <strip uuid="c1ce9361-e799-42f9-9073-d30f717409c3"/>
+    </char>
+    <char uuid="173d8241-ad48-4554-bbab-1d433d72138d">
+      <strip uuid="4499f1dc-4014-4884-8458-18bbdc24e8f1"/>
+    </char>
+    <char uuid="765f82ff-7218-47d0-8c1f-acbd4d7b4dce">
+      <strip uuid="05046589-58c1-4390-839c-fd88fb73f389"/>
+    </char>
+    <char uuid="26ebb276-6e69-48a6-afa8-bd9a5628c2fd">
+      <strip uuid="07161a15-7555-4cd5-8f9b-b652ad46d2be"/>
+    </char>
+    <char uuid="d29161a2-94cf-4e51-9259-e2f3539be26e">
+      <strip uuid="d24ff23e-41e3-43d4-b2a2-fa24eb43ee9e"/>
+    </char>
+    <char uuid="652cbfe1-cf1d-45a2-a720-5f10649df38a">
+      <strip uuid="dfbf45a2-c21e-47fe-baa6-7d23f1d8b0e0"/>
+    </char>
+    <char uuid="bc36dbf3-fee8-4386-91d2-7e76c1b17b81">
+      <strip uuid="fde67e83-55c7-4a07-af8b-76e9e9ecabff"/>
+    </char>
+    <char uuid="6d4838e0-3b6b-4df8-af3f-d909edad88d3">
+      <strip uuid="a3c3476e-fa50-4602-93d8-cbaeb8af9a77"/>
+    </char>
+    <char uuid="a7f3acfb-8a27-456a-b587-428512fab7b4">
+      <strip uuid="b7a78c00-f67e-48a5-a4ff-65331da6da5b"/>
+    </char>
+    <char uuid="4b0ddc9d-f05b-46a8-92cb-e9ecbcdb2de0">
+      <strip uuid="7d56c021-d19e-41fe-bb54-682d61845e14"/>
+    </char>
+    <char uuid="e838156d-3ba3-4787-a195-3d07661266d1">
+      <strip uuid="04540cea-7523-4a16-826a-cf0e5698e1b2"/>
+    </char>
+    <char uuid="98e0b5e3-cb19-4df7-9cfb-a6461c10a739">
+      <strip uuid="582ed620-13d8-475b-bf88-35ba99e49f4c"/>
+    </char>
+    <char uuid="cbd3d420-6a48-4219-b179-84c80ac70b46">
+      <strip uuid="06c89508-9c07-4dec-821c-dca824a4bfa5"/>
+    </char>
+    <char uuid="7f0af778-bf45-4b73-8df5-3a426ed3ee50">
+      <strip uuid="a7d26ed3-ef67-4420-bf74-a353505bb6e0"/>
+    </char>
+    <char uuid="393d55ba-afaa-4d4d-ae0b-a61ba8744c0f">
+      <strip uuid="34f8c4a2-a97e-42e6-a2e9-a330a0fe6264"/>
+    </char>
+    <char uuid="06374e37-194c-4327-a1d8-fc096aafca30">
+      <strip uuid="ea98cc59-bb40-4d8c-8eb1-26c8d396aefc"/>
+    </char>
+    <char uuid="bbcf7227-dbaa-49fc-a7e4-6c3db5d52b22">
+      <strip uuid="da6ab34e-5266-409d-a805-4893bd6ee2f1"/>
+    </char>
+    <char uuid="b258a858-ee85-48ea-98b6-f899eed3036a">
+      <strip uuid="fb9972be-ce0a-4acd-96d9-c1ef29c23bad"/>
+    </char>
+    <char uuid="0e4d4640-5b94-4915-bfd5-e1fadfc15f71">
+      <strip uuid="da7a3779-6f38-4464-b74c-a91f49ac926a"/>
+    </char>
+    <char uuid="af0080f3-224c-4a33-870c-b4ea45f6ae7d">
+      <strip uuid="bb5b04f6-d5d3-437f-a521-585c9861b635"/>
+    </char>
+    <char uuid="9cd2a0e7-505f-4a65-99a7-adef9a6f077e">
+      <strip uuid="8897288a-0ac5-4502-8631-b6a760b3a279"/>
+    </char>
+  </chars>
+</showcontrol>
