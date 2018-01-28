@@ -43,8 +43,10 @@
     <mixermap href="MixerMap.xml"/>
     <charmap href="Fiddler_char.xml"/>
     <actormap href="Fiddler_actor.xml"/>
-    <cuechar href="FiddlerChar_cuechar.xml"/>
+    <cuechar href="Fiddler_cuechar.xml"/>
     <charstrip href="Fiddler_charstrip.xml"/>
+    <stripset href="Fiddler_stripset.xml"/>
+    <stripchar href="Fiddler_stripchar.xml"/>
     <cues href="Amato_cues.xml"/>
     <cues href="Fiddler_cuesx.xml"/>
 
